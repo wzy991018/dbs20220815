@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-from flask impo
+from flask import Flask,render_template,request
 app=Flask(__name__)
 import joblib
 @app.route("/",methods=["GET","POST"])
